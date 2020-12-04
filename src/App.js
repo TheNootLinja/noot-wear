@@ -34,8 +34,6 @@ class App extends React.Component {
       // use a callback function as the second argument to the setState
       // function to get back accurate data.
           });
-
-          console.log(this.state);
         });
       }
       else {
