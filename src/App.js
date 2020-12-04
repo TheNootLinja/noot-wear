@@ -33,7 +33,8 @@ class App extends React.Component {
       // console.log the state right after using setState, we need to
       // use a callback function as the second argument to the setState
       // function to get back accurate data.
-          })
+          });
+          console.log(this.state);
         });
       }
       else {
