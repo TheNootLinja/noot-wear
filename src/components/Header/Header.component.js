@@ -8,7 +8,6 @@ import CartDropdown from '../CartDropdown/CartDropdown.component';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 
 import './Header.styles.scss';
-import CustomButton from '../CustomButton/CustomButton.component';
 
 const Header = ({ currentUser, hidden }) => (
     <div className='header'>
